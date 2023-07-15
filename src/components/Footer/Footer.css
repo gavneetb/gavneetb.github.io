@@ -1,0 +1,7 @@
+.column1 {
+  @media (max-width: 180px) {
+     {
+      width: 90vw;
+    }
+  }
+}

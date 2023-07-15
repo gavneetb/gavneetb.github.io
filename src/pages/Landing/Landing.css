@@ -1,0 +1,5 @@
+.social_col {
+  @media (max-width: 526px) {
+    /* padding-left: 1rem; */
+  }
+}
