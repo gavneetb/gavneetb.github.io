@@ -4,9 +4,11 @@ import './Accordion.css';
 
 const Accordion = ({ children, isOpen }) => {
   return (
-    <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
-      {children}
-    </div>
+    isOpen && (
+      <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+        {children}
+      </div>
+    )
   );
 };
 

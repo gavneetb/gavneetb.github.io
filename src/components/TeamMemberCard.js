@@ -3,14 +3,18 @@ import aboutLinkedin from '../res/images/logos/aboutLinkedin.svg';
 
 export default function TeamMemberCard({
   name,
+  program,
   role,
   picture,
   linkedin,
+  freeTime,
+  myIndex,
+  reading,
+  toggleAccordian,
+  setPersonInfo,
+  setMyProfileOpen,
   className,
-  showInfo,
 }) {
-  const [reading, setReading] = useState(false);
-
   return (
     <div className={className}>
       <img
@@ -64,11 +68,16 @@ export default function TeamMemberCard({
             borderBottom: '1px solid #FFFFFF',
           }}
           onClick={() => {
-            setReading(!reading);
-            showInfo(reading);
+            if (reading) {
+              setMyProfileOpen(null);
+            } else {
+              setMyProfileOpen(myIndex);
+            }
+            toggleAccordian(!reading);
+            setPersonInfo(program, freeTime);
           }}
         >
-          {!reading ? 'Read More' : 'Read Less'}
+          {reading ? 'Read Less' : 'Read More'}
         </span>
       </div>
     </div>
