@@ -1,3 +1,5 @@
+import React from "react";
+import { useState } from "react";
 import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
 import mail from "../../res/images/mail.svg";
 import "./Header.css";
@@ -15,9 +17,16 @@ const Header = () => {
             <nav className="nav">
               <ul className="nav__list">
                 <li className="nav__item">
-                  <a className="nav__link" href="/About">
-                    ABOUT
-                  </a>
+                  <div class="dropdown">
+                    <a className="nav__link" href="/Partners">
+                      ABOUT
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="#">OUR STORY</a>
+                      <a href="#">MEET THE TEAM</a>
+                      <a href="#">PAST SPONSORS</a>
+                    </div>
+                  </div>
                 </li>
                 <li className="nav__item">
                   <a className="nav__link" href="/Faq">
@@ -34,13 +43,13 @@ const Header = () => {
                     BLOG
                   </a>
                 </li>
-                <li className="nav__item" style={{ marginLeft: 100 }}>
+                <li className="nav__item">
                   <a className="btn" href="#">
                     SPONSOR US
                   </a>
                 </li>
                 <li className="nav__item">
-                  <a className="btn" href="#"> 
+                  <a className="mail-btn" href="#">
                     <img
                       style={{ width: 15, height: 15 }}
                       className="logo__img"
