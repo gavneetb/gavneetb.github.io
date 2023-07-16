@@ -1,10 +1,10 @@
 /* .col_type1 {
   padding-top: 35px;
   /* background: red; */
-  /* margin-left: 0px;
+/* margin-left: 0px;
   margin-right: 0px; */
-  /* padding: 0px; */
-  /* transform: translateX(1rem); */
+/* padding: 0px; */
+/* transform: translateX(1rem); */
 /* } */
 
 .team-section {
@@ -13,7 +13,8 @@
   padding: 0 10px;
 }
 
-.grid-container-odd, .grid-container-even {
+.grid-container-odd,
+.grid-container-even {
   margin-bottom: 60px;
 }
 
@@ -54,4 +55,8 @@
 .grid-container-even .grid-item:nth-child(2) {
   grid-column-start: 4;
   grid-column-end: 4;
+}
+
+.button:hover {
+  cursor: pointer;
 }

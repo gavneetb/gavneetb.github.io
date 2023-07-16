@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,40 +21,42 @@ body {
   font-size: 90px;
   font-weight: bold;
   color: #fff; /* White color */
-  font-family: "Inter", sans-serif; /* Font family */
+  font-family: 'Inter', sans-serif; /* Font family */
 }
 
 .ourStoryHeaders {
   font-size: 50px;
   /* font-weight: bold; */
   color: #fff; /* White color */
-  font-family: "Inter", sans-serif; /* Font family */
+  font-family: 'Inter', sans-serif; /* Font family */
 }
 
-.aboutHeaders {
+.about-header {
   font-size: 50px;
   font-weight: bold;
   color: #fff; /* White color */
-  font-family: "Inter", sans-serif; /* Font family */
+  font-family: 'Inter', sans-serif; /* Font family */
+  text-align: left;
+  margin: 25px;
 }
 
 .faqQuestions {
   font-size: 25px;
   font-weight: bold;
   color: #fff; /* White color */
-  font-family: "Inter", sans-serif; /* Font family */
+  font-family: 'Inter', sans-serif; /* Font family */
 }
 
 .faqAnswers {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* White color */
-  font-family: "Inter", sans-serif; /* Font family */
+  font-family: 'Inter', sans-serif; /* Font family */
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px
+  width: 1200px;
 }
