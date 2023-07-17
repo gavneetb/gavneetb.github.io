@@ -52,7 +52,6 @@ const Header = () => {
                   <a className="mail-btn" href="#">
                     <img
                       style={{ width: 15, height: 15 }}
-                      className="logo__img"
                       src={mail}
                       alt="logo"
                     />
