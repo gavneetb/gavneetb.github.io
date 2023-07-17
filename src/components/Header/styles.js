@@ -1,3 +1,5 @@
+//NOT BEING USED
+
 import styled from "styled-components";
 import { Container, Grid, GridColumn, Button, Form } from "semantic-ui-react";
 
@@ -9,7 +11,7 @@ export const Styledli = styled.li`
     font-size: 16px;
     line-height: 21px;
     text-decoration: none;
-    color: #fcfcfc;
+    color: black;
     position: fixed;
     transform: translate(80px, -5px);
   }
