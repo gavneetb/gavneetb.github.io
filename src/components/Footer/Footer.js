@@ -5,7 +5,7 @@ import facebook from "../../res/images/facebook.svg";
 import instagram from "../../res/images/instagram.svg";
 import linkedin from "../../res/images/linkedin.svg";
 import twitter from "../../res/images/twitter.svg";
-import "../../grid.min.css";
+// import "../../grid.min.css";
 
 import "./Footer.css";
 
@@ -19,165 +19,81 @@ import {
   StyledFooterContainer,
   StyledConnectContainer,
 } from "./styles";
+
 import EmailForm from "../../components/EmailForm/EmailForm";
 class Footer extends Component {
   render() {
     return (
-      <div id="footer">
-        <StyledFooterContainer>
-          <StyledHr />
-          <div class="ui grid ">
-            <div class="row" style={{ columnGap: "80px", alignItems: "left" }}>
-              <StyledConnectContainer>
-                <Container style={{ textAlign: "left" }}>
-                  <StyledHeading>Let's stay connected!</StyledHeading>
-                  <StyledDescription>
-                    Enter your email to receive the latest news and
-                    opportunities from the TEDxUW Community.
-                  </StyledDescription>
-                  <EmailForm />
-                  <Container
-                    style={{
-                      marginBottom: "33px",
-                      marginTop: "34px",
-                      marginRight: "auto",
-                      color: "white",
-                      width: "166px",
-                      position: "relative",
-                      textAlign: "left",
-                    }}>
-                    <div class="ui grid" style={{ color: "white" }}>
-                      <div class="column">
-                        <ImageGroup>
-                          <a
-                            href="https://www.facebook.com/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                              style={{ width: "24px" }}
-                              alt=""
-                              src={facebook}
-                              onMouseOut={(e) =>
-                                (e.currentTarget.src = facebook)
-                              }
-                            />
-                          </a>
-                        </ImageGroup>
-                      </div>
-                      <div class="column">
-                        <ImageGroup>
-                          <a
-                            href="https://www.linkedin.com/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                              style={{ width: "24px" }}
-                              alt=""
-                              src={linkedin}
-                              onMouseOut={(e) =>
-                                (e.currentTarget.src = linkedin)
-                              }
-                            />
-                          </a>
-                        </ImageGroup>
-                      </div>
-                      <div class="column">
-                        <ImageGroup>
-                          <a
-                            href="https://www.instagram.com/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                              style={{ width: "24px" }}
-                              alt=""
-                              src={instagram}
-                              onMouseOut={(e) =>
-                                (e.currentTarget.src = instagram)
-                              }
-                            />
-                          </a>
-                        </ImageGroup>
-                      </div>
-                      <div class="column">
-                        <ImageGroup>
-                          <a
-                            href="https://twitter.com/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                              style={{ width: "24px" }}
-                              alt=""
-                              src={twitter}
-                              onMouseOut={(e) =>
-                                (e.currentTarget.src = twitter)
-                              }
-                            />
-                          </a>
-                        </ImageGroup>
-                      </div>
-                    </div>
-                  </Container>
-                  <StyledDescription>
-                    Copyright © 2020 TEDxUW - All Rights Reserved.
-                    <br />
-                    This independent TEDx event is operated under license from
-                    TED.
-                  </StyledDescription>
-                </Container>
-              </StyledConnectContainer>
-              <div class="three wide column" className="column1">
-                <Container style={{ textAlign: "left" }}>
-                  <StyledHeading>Contact</StyledHeading>
-                  <StyledLink href="mailto:partnership@tedxuw.com">
-                    partnership@tedxuw.com
-                  </StyledLink>
-                  <StyledHeading>Past Websites</StyledHeading>
-                  <StyledLink href="http://2018.tedxuw.com/">
-                    TEDxUW 2018
-                    <br />
-                  </StyledLink>
-                  <StyledLink href="https://tedxuw.github.io/2017/">
-                    TEDxUW 2017
-                    <br />
-                  </StyledLink>
-                  <StyledLink href="https://tedxuw.github.io/2016/">
-                    TEDxUW 2016
-                    <br />
-                  </StyledLink>
-                </Container>
+      <div>
+        <div className="footer">
+          <div class="footercontainer">
+            <div class="row">
+              <div class="column column-1">Row 1, Column 1</div>
+              <div class="column">
+                <p class="column-text">Past Websites</p>
+                <div class="custom-links">
+                  <ul>
+                    <li>
+                      <a href="#">2020 Vision</a>
+                    </li>
+                    <li>
+                      <a href="#">Making Waves 2018</a>
+                    </li>
+                    <li>
+                      <a href="#">Defying Conventions 2017</a>
+                    </li>
+                    <li>
+                      <a href="#">TEDxUW 2016</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="two wide column">
-                <Container style={{ textAlign: "left" }}>
-                  <StyledHeading>Navigate</StyledHeading>
-                  <StyledSubtleLink href="/">
-                    Home
-                    <br />
-                  </StyledSubtleLink>
-                  <StyledSubtleLink href="Speakers">
-                    Speakers
-                    <br />
-                  </StyledSubtleLink>
-                  <StyledSubtleLink href="Partners">
-                    Partners
-                    <br />
-                  </StyledSubtleLink>
-                  <StyledSubtleLink href="About">
-                    About
-                    <br />
-                  </StyledSubtleLink>
-                  <StyledSubtleLink href="Faq">
-                    FAQ
-                    <br />
-                  </StyledSubtleLink>
-                  <StyledSubtleLink href="https://medium.com/@tedxuw">
-                    Blog
-                    <br />
-                  </StyledSubtleLink>
-                </Container>
+              <div class="column">
+                <p class="column-text">Contact Us</p>
+                <div class="custom-links">
+                  <ul>
+                    <li>
+                      <p style={{ color: "black", fontWeight: "bold" }}>
+                        Email:
+                      </p>
+                      <a href="#">outreach@tedxuw.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="column">
+                <p class="column-text">Social</p>
+                <div class="social-media-block">
+                  <ul>
+                    <div class="social-links">
+                      <a href="#" class="social-icon">
+                        {facebook}
+                      </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </ul>
+                </div>
               </div>
             </div>
+            <div class="row row-2">
+              <em>
+                Copyright © 2023 TEDxUW - All Rights Reserved. <br />
+                This independent TEDx event is operated under license from TED.
+              </em>
+            </div>
           </div>
-        </StyledFooterContainer>
+        </div>
       </div>
     );
   }
