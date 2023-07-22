@@ -36,6 +36,8 @@ export default function SectionMain({ mainTitle, subTitle, bgImg }) {
             fontFamily: "Inter",
             fontSize: "32px",
             fontWeight: "300",
+            maxWidth: "550px",
+            textAlign: 'right'
           }}
         >
           {subTitle}

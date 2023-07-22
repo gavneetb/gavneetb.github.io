@@ -10,6 +10,7 @@ import manavjit_singh_dhindsa from '../../res/images/team/manavjit_singh_dhindsa
 import RowGroup from './RowGroup';
 
 import Accordion from '../../components/Accordion/Accordion';
+import Header from '../../components/Header/Header';
 
 function About() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ function About() {
 
   return (
     <>
+    <Header />
       <SectionMain
         mainTitle='Meet the Team'
         subTitle='Learn more about our 100% student-led team.'

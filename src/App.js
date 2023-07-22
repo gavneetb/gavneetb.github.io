@@ -36,7 +36,7 @@ export default function App() {
           <Route path={process.env.PUBLIC_URL + "/Faq"} element={<Faq />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
