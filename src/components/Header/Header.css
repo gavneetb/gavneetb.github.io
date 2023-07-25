@@ -103,7 +103,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: black;
+  font-family: Inter;
 }
 
 button {

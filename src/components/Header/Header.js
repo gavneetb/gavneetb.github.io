@@ -1,54 +1,51 @@
-import React from 'react';
-import tedxuw_2023 from '../../res/images/tedxuw_2023.svg';
-import mail from '../../res/images/mail.svg';
-import './Header.css';
+import React from "react";
+import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
+import mail from "../../res/images/mail.svg";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className='header'>
-      <div className='container'>
-        <div className='header-layout'>
-          <div className='header-section'>
-            <a href='/'>
-              <img src={tedxuw_2023} alt='logo' />
+    <div className="header">
+      <div className="container">
+        <div className="header-layout">
+          <div className="header-section">
+            <a href="/">
+              <img src={tedxuw_2023} alt="logo" />
             </a>
             <nav>
-              <ul className='nav-layout'>
-                <li className='nav-link'>
-                  <div class='dropdown'>
-                    <a className='nav__link' href='/Partners'>
+              <ul className="nav-layout">
+                <li className="nav-link">
+                  <div class="dropdown">
+                    <a className="nav__link" href="/Partners">
                       ABOUT
                     </a>
-                    <div class='dropdown-content'>
-                      <a href='#'>OUR STORY</a>
-                      <a href='/About'>MEET THE TEAM</a>
-                      <a href='#'>PAST SPONSORS</a>
+                    <div class="dropdown-content">
+                      <a href="#">OUR STORY</a>
+                      <a href="/About">MEET THE TEAM</a>
+                      <a href="#">PAST SPONSORS</a>
                     </div>
                   </div>
                 </li>
-                <li className='nav-link'>
-                  <a href='/Faq'>FAQ</a>
+                <li className="nav-link">
+                  <a href="/Faq">FAQ</a>
                 </li>
-                <li className='nav-link'>
-                  <a href='/Partners'>SPONSORS</a>
+                <li className="nav-link">
+                  <a href="/Partners">SPONSORS</a>
                 </li>
-                <li className='nav-link'>
-                  <a href='https://medium.com/@tedxuw'>BLOG</a>
-                </li>
-                <li className='nav-link'>
-                  <a href='#'>SPONSOR US</a>
+                <li className="nav-link">
+                  <a href="https://medium.com/@tedxuw">BLOG</a>
                 </li>
               </ul>
             </nav>
           </div>
-          <div className='header-section'>
-            <a href='' className='nav-btn'>
-              <span style={{ padding: '0 30px', textTransform: 'uppercase' }}>
+          <div className="header-section">
+            <a href="" className="nav-btn">
+              <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
                 Sponsor Us
               </span>
             </a>
-            <a href='' className='nav-btn'>
-              <img style={{ width: 15, height: 15 }} src={mail} alt='logo' />
+            <a href="" className="nav-btn">
+              <img style={{ width: 15, height: 15 }} src={mail} alt="logo" />
             </a>
           </div>
         </div>
