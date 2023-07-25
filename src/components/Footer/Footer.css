@@ -17,7 +17,6 @@
 .column {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
   height: 300px
 }
 
@@ -27,6 +26,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
+  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -46,6 +46,9 @@
   font-style: normal;
   font-weight: 300;
   line-height: 24px; /* 171.429% */
+  flex-direction: column;
+  align-items: center; /* Optional: Align content horizontally in the center */
+  text-align: center; /* Optional: Align text horizontally in the center */
 }
 
 /* CSS */
@@ -56,7 +59,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  text-align: left;
 }
 
 .custom-links ul {
@@ -66,36 +68,10 @@
 }
 
 .custom-links li {
-  line-height: 30px; /* 214.286% */
+  line-height: 30px;
 }
 
 .custom-links a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* social media block */
-/* CSS */
-.social-media-block {
-  color: #C73F39;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.social-media-block ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-media-block li {
-  line-height: 30px;
-}
-
-.social-media-block a {
   text-decoration: none;
   color: inherit;
 }
@@ -113,5 +89,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+
+.stump-box {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: flex-start; /* Align items (rows) more to the left than center */
+  align-items: center; /* Align items (rows) horizontally to the center */
+  height: 200px; 
+}
+
+.footer-row {
+  flex: 1; 
+  justify-content: left; 
+}
+
+
+.gray-line {
+  width: 1100px;
+  height: 0.5px;
+  border: 1px solid #000;
+  opacity: 0.2;
+  background: #000;
+  margin-bottom: 10px; /* Add 10px spacing between the line and the div */
 }
 

@@ -5,6 +5,10 @@ import facebook from "../../res/images/facebook.svg";
 import instagram from "../../res/images/instagram.svg";
 import linkedin from "../../res/images/linkedin.svg";
 import twitter from "../../res/images/twitter.svg";
+import youtube from "../../res/images/youtube.svg";
+import stump from "../../res/images/stump.svg";
+import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
+
 // import "../../grid.min.css";
 
 import "./Footer.css";
@@ -28,7 +32,16 @@ class Footer extends Component {
         <div className="footer">
           <div class="footercontainer">
             <div class="row">
-              <div class="column column-1">Row 1, Column 1</div>
+              <div class="column column-1">
+                <div class="stump-box">
+                  <div class="footer-row">
+                    <img src={tedxuw_2023} />
+                  </div>
+                  <div class="footer-row">
+                    <img src={stump} />
+                  </div>
+                </div>
+              </div>
               <div class="column">
                 <p class="column-text">Past Websites</p>
                 <div class="custom-links">
@@ -53,40 +66,40 @@ class Footer extends Component {
                 <div class="custom-links">
                   <ul>
                     <li>
-                      <p style={{ color: "black", fontWeight: "bold" }}>
-                        Email:
-                      </p>
-                      <a href="#">outreach@tedxuw.com</a>
+                      <a href="#">Email: outreach@tedxuw.com</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="column">
                 <p class="column-text">Social</p>
-                <div class="social-media-block">
+                <div class="custom-links">
                   <ul>
-                    <div class="social-links">
-                      <a href="#" class="social-icon">
-                        {facebook}
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fab fa-youtube"></i>
-                      </a>
-                    </div>
+                    <li>
+                      <div class="social-links">
+                        <a href="#" class="social-icon">
+                          <img src={facebook} />
+                        </a>
+                        <a href="#" class="social-icon">
+                          <img src={linkedin} />
+                        </a>
+                        <a href="#" class="social-icon">
+                          <img src={instagram} />
+                        </a>
+                        <a href="#" class="social-icon">
+                          <img src={twitter} />
+                        </a>
+                        <a href="#" class="social-icon">
+                          <img src={youtube} />
+                        </a>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="row row-2">
+              <div class="gray-line"> </div>
               <em>
                 Copyright © 2023 TEDxUW - All Rights Reserved. <br />
                 This independent TEDx event is operated under license from TED.
