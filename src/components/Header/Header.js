@@ -20,7 +20,7 @@ const Header = () => {
                       ABOUT
                     </a>
                     <div class="dropdown-content">
-                      <a href="#">OUR STORY</a>
+                      <a href="/OurStory">OUR STORY</a>
                       <a href="/About">MEET THE TEAM</a>
                       <a href="#">PAST SPONSORS</a>
                     </div>

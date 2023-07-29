@@ -34,10 +34,10 @@ export default function SectionMain({ mainTitle, subTitle, bgImg }) {
           style={{
             marginTop: 25,
             fontFamily: "Inter",
-            fontSize: "32px",
+            fontSize: "24px",
             fontWeight: "300",
             maxWidth: "550px",
-            textAlign: 'right'
+            textAlign: "right",
           }}
         >
           {subTitle}
