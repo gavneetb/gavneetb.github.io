@@ -16,6 +16,7 @@ import About from "./pages/About/About";
 import Partners from "./pages/Partners/Partners";
 import Speakers from "./pages/Speakers/Speakers";
 import Faq from "./pages/Faq/Faq";
+import Story from "./pages/Story/Story";
 
 export default function App() {
   return (
@@ -34,6 +35,10 @@ export default function App() {
             element={<Speakers />}
           />
           <Route path={process.env.PUBLIC_URL + "/Faq"} element={<Faq />} />
+          <Route
+            path={process.env.PUBLIC_URL + "/OurStory"}
+            element={<Story />}
+          />
         </Routes>
       </BrowserRouter>
       <Footer />
