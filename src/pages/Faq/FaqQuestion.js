@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
-
 import Accordion from '../../components/Accordion/Accordion';
 
 export default function FaqQuestion({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <h1>{question}</h1>
-      <button onClick={() => setIsOpen(!isOpen)}>Show Question</button>
+    <div className='question-container'>
+      <div className={`question-wrapper ${isOpen ? 'open' : 'closed'}`}>
+        <h1 className='question'>{question}</h1>
+        <button className={`toggle-button ${isOpen ? 'up' : 'down'}`} onClick={() => setIsOpen(!isOpen)}></button>
+      </div>
       <Accordion isOpen={isOpen}>
-        <h2>{answer}</h2>
+        <h2 className='answer'>{answer}</h2>
       </Accordion>
     </div>
   );

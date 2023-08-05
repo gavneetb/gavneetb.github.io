@@ -16,13 +16,12 @@ const Header = () => {
               <ul className="nav-layout">
                 <li className="nav-link">
                   <div class="dropdown">
-                    <a className="nav__link" href="/Partners">
+                    <a className="nav__link" href="#">
                       ABOUT
                     </a>
                     <div class="dropdown-content">
                       <a href="/OurStory">OUR STORY</a>
                       <a href="/About">MEET THE TEAM</a>
-                      <a href="#">PAST SPONSORS</a>
                     </div>
                   </div>
                 </li>
@@ -33,18 +32,24 @@ const Header = () => {
                   <a href="/Partners">SPONSORS</a>
                 </li>
                 <li className="nav-link">
-                  <a href="https://medium.com/@tedxuw">BLOG</a>
+                  <a
+                    href="https://medium.com/@tedxuw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BLOG
+                  </a>
                 </li>
               </ul>
             </nav>
           </div>
           <div className="header-section">
-            <a href="" className="nav-btn">
+            <a href="mailto:outreach@tedxuw.com" className="nav-btn">
               <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
                 Sponsor Us
               </span>
             </a>
-            <a href="" className="nav-btn">
+            <a href="mailto:outreach@tedxuw.com" className="nav-btn">
               <img style={{ width: 15, height: 15 }} src={mail} alt="logo" />
             </a>
           </div>

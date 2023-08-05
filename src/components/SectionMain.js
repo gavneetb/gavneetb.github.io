@@ -6,7 +6,7 @@ export default function SectionMain({ mainTitle, subTitle, bgImg }) {
     backgroundImage: `url(${bgImg})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    height: "90vh",
+    height: "70vh",
   };
 
   return (
