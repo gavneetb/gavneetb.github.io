@@ -6,25 +6,12 @@ import instagram from "../../res/images/instagram.svg";
 import linkedin from "../../res/images/linkedin.svg";
 import twitter from "../../res/images/twitter.svg";
 import youtube from "../../res/images/youtube.svg";
-import stump from "../../res/images/stump.svg";
+import FooterLogo from "../../res/images/FooterLogo.svg";
 import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
 
 // import "../../grid.min.css";
 
 import "./Footer.css";
-
-import {
-  StyledLink,
-  StyledHeading,
-  StyledDescription,
-  StyledList,
-  StyledSubtleLink,
-  StyledHr,
-  StyledFooterContainer,
-  StyledConnectContainer,
-} from "./styles";
-
-import EmailForm from "../../components/EmailForm/EmailForm";
 class Footer extends Component {
   render() {
     return (
@@ -38,7 +25,7 @@ class Footer extends Component {
                     <img src={tedxuw_2023} />
                   </div>
                   <div class="footer-row">
-                    <img src={stump} />
+                    <img src={FooterLogo} />
                   </div>
                 </div>
               </div>
@@ -47,16 +34,40 @@ class Footer extends Component {
                 <div class="custom-links">
                   <ul>
                     <li>
-                      <a href="#">2020 Vision</a>
+                      <a
+                        href="https://tedxuw2.godaddysites.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        2020 Vision
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Making Waves 2018</a>
+                      <a
+                        href="http://2018.tedxuw.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Making Waves 2018
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Defying Conventions 2017</a>
+                      <a
+                        href="http://2017.tedxuw.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Defying Conventions 2017
+                      </a>
                     </li>
                     <li>
-                      <a href="#">TEDxUW 2016</a>
+                      <a
+                        href="http://2016.tedxuw.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        TEDxUW 2016
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -66,7 +77,9 @@ class Footer extends Component {
                 <div class="custom-links">
                   <ul>
                     <li>
-                      <a href="#">Email: outreach@tedxuw.com</a>
+                      <a href="mailto:outreach@tedxuw.com">
+                        outreach@tedxuw.com
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -77,21 +90,41 @@ class Footer extends Component {
                   <ul>
                     <li>
                       <div class="social-links">
-                        <a href="#" class="social-icon">
+                        <a
+                          href="https://www.facebook.com/TEDxUW/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="social-icon"
+                        >
                           <img src={facebook} />
                         </a>
-                        <a href="#" class="social-icon">
+                        <a
+                          href="https://www.linkedin.com/company/tedxuw/mycompany/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="social-icon"
+                        >
                           <img src={linkedin} />
                         </a>
-                        <a href="#" class="social-icon">
+                        <a
+                          href="https://www.instagram.com/tedxuw/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="social-icon"
+                        >
                           <img src={instagram} />
                         </a>
-                        <a href="#" class="social-icon">
+                        <a
+                          href="https://twitter.com/tedxuw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="social-icon"
+                        >
                           <img src={twitter} />
                         </a>
-                        <a href="#" class="social-icon">
+                        {/* <a href="#" class="social-icon">
                           <img src={youtube} />
-                        </a>
+                        </a> */}
                       </div>
                     </li>
                   </ul>
