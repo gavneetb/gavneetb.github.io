@@ -22,6 +22,7 @@ const Header = () => {
                     <div class="dropdown-content">
                       <a href="/OurStory">OUR STORY</a>
                       <a href="/About">MEET THE TEAM</a>
+                      <a href="/Partners">PAST SPONSORS</a>
                     </div>
                   </div>
                 </li>
@@ -29,24 +30,22 @@ const Header = () => {
                   <a href="/Faq">FAQ</a>
                 </li>
                 <li className="nav-link">
-                  <a href="/Partners">SPONSORS</a>
+                  <a href="/Sponsors">SPONSORS</a>
                 </li>
                 <li className="nav-link">
-                  <a
-                    href="https://medium.com/@tedxuw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    BLOG
-                  </a>
+                  <a href="/Blog">BLOG</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div className="header-section">
-            <a href="mailto:outreach@tedxuw.com" className="nav-btn">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScrEIkSgOQPhrP-fmzVf414Hu5qTMio_RJ4wGeb9pV5VrsMWw/viewform"
+              className="nav-btn"
+              target="_blank"
+            >
               <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
-                Sponsor Us
+                Become a Speaker
               </span>
             </a>
             <a href="mailto:outreach@tedxuw.com" className="nav-btn">

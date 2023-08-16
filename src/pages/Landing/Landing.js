@@ -69,8 +69,11 @@ function Landing() {
             problem-solvers, entrepreneurs, writers, activists, and
             change-makers.
           </p>
-          <a href="mailto:outreach@tedxuw.com">
-            <button class="sign-up-button">Sponsor Us</button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScrEIkSgOQPhrP-fmzVf414Hu5qTMio_RJ4wGeb9pV5VrsMWw/viewform"
+            target="_blank"
+          >
+            <button class="sign-up-button">Become a Speaker</button>
           </a>
         </div>
       </div>

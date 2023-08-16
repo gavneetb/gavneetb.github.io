@@ -17,6 +17,8 @@ import Partners from "./pages/Partners/Partners";
 import Speakers from "./pages/Speakers/Speakers";
 import Faq from "./pages/Faq/Faq";
 import Story from "./pages/Story/Story";
+import Sponsors from "./pages/Sponsors/Sponsors";
+import Blog from "./pages/Blog/Blog";
 
 export default function App() {
   return (
@@ -39,6 +41,11 @@ export default function App() {
             path={process.env.PUBLIC_URL + "/OurStory"}
             element={<Story />}
           />
+          <Route
+            path={process.env.PUBLIC_URL + "/Sponsors"}
+            element={<Sponsors />}
+          />
+          <Route path={process.env.PUBLIC_URL + "/Blog"} element={<Blog />} />
         </Routes>
       </BrowserRouter>
       <Footer />
