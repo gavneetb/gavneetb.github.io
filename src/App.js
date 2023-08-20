@@ -24,7 +24,7 @@ export default function App() {
   return (
     <div className="App">
       {/* <BrowserRouter basename="ted737"> */}
-      {/* <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter basename={gavneetb}>
         <Routes>
           <Route path={process.env.PUBLIC_URL + "/"} element={<Landing />} />
           <Route path={process.env.PUBLIC_URL + "/About"} element={<About />} />
@@ -49,7 +49,7 @@ export default function App() {
         </Routes>
       </BrowserRouter> */}
 
-      <BrowserRouter>
+      <BrowserRouter basename="gavneetb">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/About" element={<About />} />
