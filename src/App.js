@@ -1,5 +1,5 @@
 import "./styles.css";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import {
   Container,
@@ -25,11 +25,12 @@ export default function App() {
   return (
     <div className="App">
       <HashRouter>
+        {/* Navigation */}
+        {/* Routes */}
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/About" element={<About />} />
           <Route path="/Partners" element={<Partners />} />
-          <Route path="/Speakers" element={<Speakers />} />
           <Route path="/Faq" element={<Faq />} />
           <Route path="/OurStory" element={<Story />} />
           <Route path="/Sponsors" element={<Sponsors />} />

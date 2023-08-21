@@ -2,6 +2,7 @@ import React from "react";
 import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
 import mail from "../../res/images/mail.svg";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,31 +10,31 @@ const Header = () => {
       <div className="container">
         <div className="header-layout">
           <div className="header-section">
-            <a href="/">
+            <Link to="/">
               <img src={tedxuw_2023} alt="logo" />
-            </a>
+            </Link>
             <nav>
               <ul className="nav-layout">
                 <li className="nav-link">
                   <div class="dropdown">
-                    <a className="nav__link" href="#">
+                    <Link className="nav__link" to="#">
                       ABOUT
-                    </a>
+                    </Link>
                     <div class="dropdown-content">
-                      <a href="/OurStory">OUR STORY</a>
-                      <a href="/About">MEET THE TEAM</a>
-                      <a href="/Partners">PAST SPONSORS</a>
+                      <Link to="/OurStory">OUR STORY</Link>
+                      <Link to="/About">MEET THE TEAM</Link>
+                      <Link to="/Partners">PAST SPONSORS</Link>
                     </div>
                   </div>
                 </li>
                 <li className="nav-link">
-                  <a href="/Faq">FAQ</a>
+                  <Link to="/Faq">FAQ</Link>
                 </li>
                 <li className="nav-link">
-                  <a href="/Sponsors">SPONSORS</a>
+                  <Link to="/Sponsors">SPONSORS</Link>
                 </li>
                 <li className="nav-link">
-                  <a href="/Blog">BLOG</a>
+                  <Link to="/Blog">BLOG</Link>
                 </li>
               </ul>
             </nav>
@@ -43,6 +44,7 @@ const Header = () => {
               href="https://docs.google.com/forms/d/e/1FAIpQLScrEIkSgOQPhrP-fmzVf414Hu5qTMio_RJ4wGeb9pV5VrsMWw/viewform"
               className="nav-btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
                 Become a Speaker
