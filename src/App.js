@@ -21,10 +21,33 @@ import Story from "./pages/Story/Story";
 import Sponsors from "./pages/Sponsors/Sponsors";
 import Blog from "./pages/Blog/Blog";
 
+import "./styles.css";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
+import {
+  Container,
+  Grid,
+  GridColumn,
+  Image,
+  ImageGroup,
+  Item,
+} from "semantic-ui-react";
+
+import Footer from "./components/Footer/Footer";
+import Landing from "./pages/Landing/Landing";
+import Header from "./components/Header/Header";
+import About from "./pages/About/About";
+import Partners from "./pages/Partners/Partners";
+import Speakers from "./pages/Speakers/Speakers";
+import Faq from "./pages/Faq/Faq";
+import Story from "./pages/Story/Story";
+import Sponsors from "./pages/Sponsors/Sponsors";
+import Blog from "./pages/Blog/Blog";
+
 export default function App() {
   return (
     <div className="App">
-      <HashRouter basename="/">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/About" element={<About />} />
@@ -43,7 +66,6 @@ export default function App() {
 
 // import "./styles.css";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 // import {
 //   Container,
