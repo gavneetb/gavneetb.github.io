@@ -69,11 +69,8 @@ function Landing() {
             problem-solvers, entrepreneurs, writers, activists, and
             change-makers.
           </p>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScrEIkSgOQPhrP-fmzVf414Hu5qTMio_RJ4wGeb9pV5VrsMWw/viewform"
-            target="_blank"
-          >
-            <button class="sign-up-button">Become a Speaker</button>
+          <a href="https://bit.ly/registerTEDxUW2023" target="_blank">
+            <button class="sign-up-button">Register for TEDxUW 2023!</button>
           </a>
         </div>
       </div>

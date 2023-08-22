@@ -41,13 +41,13 @@ const Header = () => {
           </div>
           <div className="header-section">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScrEIkSgOQPhrP-fmzVf414Hu5qTMio_RJ4wGeb9pV5VrsMWw/viewform"
+              href="https://bit.ly/registerTEDxUW2023"
               className="nav-btn"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
-                Become a Speaker
+                Register for TEDxUW 2023!
               </span>
             </a>
             <a href="mailto:outreach@tedxuw.com" className="nav-btn">

@@ -59,7 +59,6 @@
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 20px; /* Add a margin to separate from the question */
+  font-weight: 500;
+  line-height: 20px;
 }

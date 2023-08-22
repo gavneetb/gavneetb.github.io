@@ -15,7 +15,11 @@ export default function Sponsors() {
   return (
     <>
       <Header />
-      <SectionMain mainTitle="Sponsors" bgImg={mountainsBackground} />
+      <SectionMain
+        mainTitle="Sponsors"
+        bgImg={mountainsBackground}
+        subTitle="Thank you to our generous sponsors for the support!"
+      />
       <div style={{ textAlign: "center" }}>
         {/* Platinum Sponsors */}
         <div
