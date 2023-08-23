@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import aboutLinkedin from '../res/images/logos/aboutLinkedin.svg';
+import React, { useState } from "react";
+import aboutLinkedin from "../res/images/logos/aboutLinkedin.svg";
 
 export default function TeamMemberCard({
   name,
@@ -15,6 +15,10 @@ export default function TeamMemberCard({
   setMyProfileOpen,
   className,
 }) {
+  if (name === "") {
+    return <div></div>;
+  }
+
   return (
     <div className={className}>
       <img
@@ -23,27 +27,27 @@ export default function TeamMemberCard({
       />
       <div
         style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-start",
         }}
       >
-        <div style={{ padding: '10px 0' }}>
+        <div style={{ padding: "10px 0" }}>
           <h1
             style={{
-              display: 'inline-block',
-              fontFamily: 'inter',
+              display: "inline-block",
+              fontFamily: "inter",
               fontWeight: 700,
-              color: '#D43F2E',
-              marginRight: '10px',
+              color: "#D43F2E",
+              marginRight: "10px",
             }}
           >
             {name}
           </h1>
-          <a href={linkedin} target='_blank' rel='noopener noreferrer'>
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
             <img
-              style={{ width: '24px' }}
-              alt=''
+              style={{ width: "24px" }}
+              alt=""
               src={aboutLinkedin}
               onMouseOut={(e) => (e.currentTarget.src = aboutLinkedin)}
             />
@@ -51,21 +55,21 @@ export default function TeamMemberCard({
         </div>
         <h3
           style={{
-            fontFamily: 'inter',
+            fontFamily: "inter",
             fontWeight: 200,
-            color: '#FFFFFF',
-            paddingBottom: '10px',
+            color: "#FFFFFF",
+            paddingBottom: "10px",
           }}
         >
           {role}
         </h3>
         <span
-          className='button'
+          className="button"
           style={{
-            fontFamily: 'inter',
+            fontFamily: "inter",
             fontWeight: 200,
-            color: '#FFFFFF',
-            borderBottom: '1px solid #FFFFFF',
+            color: "#FFFFFF",
+            borderBottom: "1px solid #FFFFFF",
           }}
           onClick={() => {
             if (reading) {
@@ -77,7 +81,7 @@ export default function TeamMemberCard({
             setPersonInfo(program, freeTime);
           }}
         >
-          {reading ? 'Read Less' : 'Read More'}
+          {reading ? "Read Less" : "Read More"}
         </span>
       </div>
     </div>

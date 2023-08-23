@@ -5,10 +5,14 @@
     width: 1000px;
 }
 
+
+
 .logo {
     width: 200px;
     height: 200px;
 }
+
+
 
 .main-text {
     color: #FFF;
@@ -24,6 +28,8 @@
     margin: 0 10px;
 }
 
+
+
 .sub-text {
     color: #FFF;
     text-align: center;
@@ -37,3 +43,4 @@
     max-width: none;  /* Or set to a higher value if needed */
     margin-top: 20px;
 }
+

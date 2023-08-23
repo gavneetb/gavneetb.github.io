@@ -236,9 +236,9 @@ export default function Story() {
             <img src={ourstory4} />
             <p
               style={{
-                fontFamily: "Helvetica",
+                fontFamily: "inter",
                 textAlign: "left",
-                width: 250,
+                width: 280,
                 color: "white",
               }}
             >

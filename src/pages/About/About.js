@@ -43,7 +43,6 @@ function About() {
               persons={["Salma Marzouk", "Caitlin Kwan", "Helen Wang"]}
             />
           </div>
-          <Accordion isOpen={isOpen}>hello</Accordion>
         </div>
         {/* MARKETING SECTION */}
         <div style={{ width: "85%" }}>
@@ -88,14 +87,13 @@ function About() {
             <div
               style={{
                 display: "flex",
-                flexDirection: "row",
+                flexDirection: "column",
                 justifyContent: "center",
               }}
             >
-              <TeamMemberCard
-                name="Manavjit Singh Dhindsa"
-                role="Speaker Relations Manager"
-                picture={manavjit_singh_dhindsa}
+              <RowGroup
+                even={false}
+                persons={["", "Manavjit Singh Dhindsa", ""]}
               />
             </div>
           </div>
