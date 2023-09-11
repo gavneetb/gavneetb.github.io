@@ -23,7 +23,7 @@ const Header = () => {
                     <div class="dropdown-content">
                       <Link to="/OurStory">OUR STORY</Link>
                       <Link to="/About">MEET THE TEAM</Link>
-                      <Link to="/Partners">PAST SPONSORS</Link>
+                      {/* <Link to="/Partners">PAST SPONSORS</Link> */}
                     </div>
                   </div>
                 </li>
@@ -32,6 +32,9 @@ const Header = () => {
                 </li>
                 <li className="nav-link">
                   <Link to="/Sponsors">SPONSORS</Link>
+                </li>
+                <li className="nav-link">
+                  <Link to="/Speakers">SPEAKERS</Link>
                 </li>
                 <li className="nav-link">
                   <Link to="/Blog">BLOG</Link>

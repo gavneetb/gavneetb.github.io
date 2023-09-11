@@ -36,7 +36,7 @@ function About() {
       >
         {/* Chairs, Operations & Finance */}
         <div style={{ width: "85%" }}>
-          <div className="about-header">Chairs, Operations & Finance</div>
+          <div className="about-header">Chair, Operations & Finance</div>
           <div className="team-section">
             <RowGroup
               even={false}

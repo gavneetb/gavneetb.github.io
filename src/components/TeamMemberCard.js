@@ -8,6 +8,7 @@ export default function TeamMemberCard({
   picture,
   linkedin,
   freeTime,
+  description,
   myIndex,
   reading,
   toggleAccordian,
@@ -78,7 +79,7 @@ export default function TeamMemberCard({
               setMyProfileOpen(myIndex);
             }
             toggleAccordian(!reading);
-            setPersonInfo(program, freeTime);
+            setPersonInfo(program, freeTime, description);
           }}
         >
           {reading ? "Read Less" : "Read More"}

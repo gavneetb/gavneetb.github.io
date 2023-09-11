@@ -34,6 +34,7 @@ export default function App() {
           <Route path="/Faq" element={<Faq />} />
           <Route path="/OurStory" element={<Story />} />
           <Route path="/Sponsors" element={<Sponsors />} />
+          <Route path="/Speakers" element={<Speakers />} />
           <Route path="/Blog" element={<Blog />} />
         </Routes>
       </HashRouter>

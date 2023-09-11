@@ -13,15 +13,16 @@ export default function EvenRowGroup({ persons, even }) {
 
   const [program, setProgram] = useState("");
   const [freeTime, setFreeTime] = useState("");
+  const [description, setDescription] = useState("");
 
   function toggleAccordian(open) {
     setAccordianIsOpen(open);
   }
 
-  function setPersonInfo(personProgram, personFreeTime) {
+  function setPersonInfo(personProgram, personFreeTime, personDescription) {
     setProgram(personProgram);
-
     setFreeTime(personFreeTime);
+    setDescription(personDescription);
   }
 
   function setMyProfileOpen(personIndex) {
@@ -51,7 +52,7 @@ export default function EvenRowGroup({ persons, even }) {
             );
           }
 
-          const { title, program, picture, linkedin, freeTime } =
+          const { title, program, picture, linkedin, freeTime, description } =
             people[person];
 
           return (
@@ -62,6 +63,7 @@ export default function EvenRowGroup({ persons, even }) {
               picture={picture}
               linkedin={linkedin}
               freeTime={freeTime}
+              description={description}
               myIndex={index}
               reading={whichProfileOpen === index}
               toggleAccordian={toggleAccordian}
@@ -73,7 +75,7 @@ export default function EvenRowGroup({ persons, even }) {
         })}
       </div>
       <Accordion isOpen={accordianIsOpen}>
-        <p
+        {/* <p
           style={{
             color: "white",
             fontFamily: "inter",
@@ -102,7 +104,7 @@ export default function EvenRowGroup({ persons, even }) {
           }}
         >
           Q: What do you like to do in your free time?
-        </p>
+        </p> */}
         <p
           style={{
             color: "white",
@@ -111,7 +113,7 @@ export default function EvenRowGroup({ persons, even }) {
             fontWeight: "400",
           }}
         >
-          A: {freeTime}
+          {description}
         </p>
       </Accordion>
     </>
