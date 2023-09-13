@@ -277,9 +277,3 @@ button {
     display: block;
   }
 }
-
-@media (max-width: 360px) {
-  .top-bar__content {
-    font-size: 10px;
-  }
-}

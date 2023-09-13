@@ -115,6 +115,8 @@ const people = {
   },
   "Pranav Bedi": {
     title: "Production Manager",
+    description:
+      "Meet Pranav! He's in his second year of Computer Science at UW and Business Administration at WLU. After watching TED talks with every meal he decided that he HAS to be a part of this years TEDxUW and make sure its the best TED talk to ever happen",
     program: "3B Math/CPA",
     freeTime: "Volleyball and Video Games",
     picture: pranav_bedi,
@@ -133,6 +135,8 @@ const people = {
   "Enoch Tin": {
     title: "Logistics Manager",
     program: "1B Accounting and Financial Management",
+    description:
+      "Enoch is a second year student in the Accounting and Financial Management program. He joined the logistics team to acquire practical knowledge in event planning. During his spare time, he consistently seeks opportunities to interact with geese and pet them.",
     freeTime: "I sleep",
     picture: enoch_tin,
     linkedin: "https://www.linkedin.com/in/enoch-tin-ba0a6924b/",
@@ -149,6 +153,8 @@ const people = {
   "Helena Lee": {
     title: "Director of Marketing",
     program: "4A Science and Business",
+    description:
+      "Helena is a fourth-year student in the Science and Business program at the University of Waterloo. With her expertise in marketing and leading teams, she is excited to lead the Marketing team in the TEDxUW 2023. Helena is passionate about making the unapproachable, approachable, along with empower others whether it be through stories, marketing, or conferences like TEDxUW! She is excited to see and meet amazing people at this year's conference. ",
     freeTime:
       "I’ve been into reading these days - started with random books from booktok 🙂 Would love any recs!",
     picture: helena_lee,
@@ -182,6 +188,8 @@ const people = {
   "Sasha Takoo": {
     title: "Graphic Designer",
     program: "2B Global Business Digital Arts",
+    description:
+      "Sasha is a 3rd year GBDA student who is interested in all things design. This is her first year in TEDxUW. As a graphic designer, she looks forward to creating eye catching content that brings attention to this amazing conference! She is also excited to get inspired by all the amazing talks and create new connections. ",
     freeTime: "Reading, painting, going on walks!",
     picture: sasha_takoo,
     linkedin: "https://www.linkedin.com/in/sashatakoo/",
