@@ -180,6 +180,8 @@ const people = {
   },
   "Jennifer Man": {
     title: "Senior Graphic Designer",
+    description:
+      "Jennifer is currently in her first year at the Masters of Digital Experience Innovation program at UW. She is most excited about the inspiring speakers, performances and community engagement at the TEDxUW conference. The whole team has worked tirelessly to make this event the best one yet and I am looking forward to seeing all the ideas worth spreading! ",
     program: "4B Planning",
     freeTime: "Travelling and trying new foods 🙂",
     picture: jennifer_man,
@@ -243,6 +245,8 @@ const people = {
   "Muktha Kaja": {
     title: "Speaker Relations Manager",
     program: "1B Electrical Engineering",
+    description:
+      "Muktha is a 2nd year Electrical Engineering student at UW who loves anything within the realm of film, music and books as well as public speaking! The latter point is why she’s so passionate about working behind the scenes for TEDxUW and helping bring to light ideas spoken by equally passionate voices! Sparked by creativity, Muktha cannot wait to meet and work with brilliant speakers and help create a wonderful cohesive speaking team! ",
     freeTime: "Reading, writing, listening to music",
     picture: muktha_kaja,
     linkedin: "https://www.linkedin.com/in/muktha-kaja-9a2803248/",
