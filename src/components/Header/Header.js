@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
 import mail from "../../res/images/mail.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
+
   return (
     <div className="header">
       <div className="container">
@@ -13,7 +19,25 @@ const Header = () => {
             <Link to="/">
               <img src={tedxuw_2023} alt="logo" />
             </Link>
-            <nav>
+
+            <div className="hamburger" onClick={handleMenuToggle}>
+              {isMenuOpen ? (
+                <span>&times;</span>
+              ) : (
+                <>
+                  <div className="bar"></div>
+                  <div className="bar"></div>
+                  <div className="bar"></div>
+                </>
+              )}
+            </div>
+
+            <nav className={`nav ${isMenuOpen ? "nav--open" : ""}`}>
+              {isMenuOpen && (
+                <div className="close-nav" onClick={handleMenuToggle}>
+                  &times;
+                </div>
+              )}
               <ul className="nav-layout">
                 <li className="nav-link">
                   <div class="dropdown">
@@ -42,7 +66,7 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className="header-section">
+          <div className="header-section2">
             <a
               href="https://bit.ly/registerTEDxUW2023"
               className="nav-btn"

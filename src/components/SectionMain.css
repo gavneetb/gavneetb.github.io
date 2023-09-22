@@ -1,0 +1,39 @@
+
+.main-section{
+    
+    background-image: var(--bg-img);
+}
+
+.second-main-section{
+    
+    
+}
+
+.main-title{
+
+    
+}
+
+.subtitle-section{
+    
+}
+
+@media (max-width: 650px) {
+.main-section{
+    background-image: var(--bg-img);
+}
+
+.second-main-section{
+    
+    
+}
+
+.main-title{
+
+    
+}
+
+.subtitle-section{
+    
+}
+}

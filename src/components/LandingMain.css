@@ -5,14 +5,10 @@
     width: 1000px;
 }
 
-
-
 .logo {
     width: 200px;
     height: 200px;
 }
-
-
 
 .main-text {
     color: #FFF;
@@ -28,8 +24,6 @@
     margin: 0 10px;
 }
 
-
-
 .sub-text {
     color: #FFF;
     text-align: center;
@@ -42,5 +36,48 @@
     letter-spacing: -0.479px;
     max-width: none;  /* Or set to a higher value if needed */
     margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+
+    .logo-text-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    .main-text {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'calt' off;
+        font-family: Inter;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: -1.914px;
+        max-width: 900px;
+        margin: 0 10px;
+    }
+    
+    .sub-text {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'calt' off;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.479px;
+        max-width: none;  /* Or set to a higher value if needed */
+        margin-top: 20px;
+    }
+
 }
 
