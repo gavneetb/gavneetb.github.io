@@ -23,6 +23,12 @@ export default function SpeakerCard({
     return <div></div>;
   }
 
+  const handleEmailClick = () => {
+    if (mail) {
+      window.location.href = `mailto:${mail}`;
+    }
+  };
+
   return (
     <div className={className}>
       <img
@@ -48,22 +54,25 @@ export default function SpeakerCard({
           >
             {name}
           </h1>
-          <a href={mail} target="_blank" rel="noopener noreferrer">
+          {mail && (
             <img
-              style={{ width: "24px", marginRight: "10px" }}
+              style={{ width: "24px", marginRight: "10px", cursor: "pointer" }}
               alt=""
               src={speakerMail}
+              onClick={handleEmailClick}
               onMouseOut={(e) => (e.currentTarget.src = speakerMail)}
             />
-          </a>
-          <a href={website} target="_blank" rel="noopener noreferrer">
-            <img
-              style={{ width: "24px" }}
-              alt=""
-              src={speakerWebsite}
-              onMouseOut={(e) => (e.currentTarget.src = speakerWebsite)}
-            />
-          </a>
+          )}
+          {website && (
+            <a href={website} target="_blank" rel="noopener noreferrer">
+              <img
+                style={{ width: "24px", cursor: "pointer" }}
+                alt=""
+                src={speakerWebsite}
+                onMouseOut={(e) => (e.currentTarget.src = speakerWebsite)}
+              />
+            </a>
+          )}
         </div>
         <h3
           style={{

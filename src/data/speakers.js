@@ -39,7 +39,7 @@ scholar at the Henley School of Business.
     speech:
       "I Draw Real World Inspiration from the Things I Use to Escape from the Real World",
     mail: "arda.ocal@gmail.com",
-    website: "twitter.com/arda",
+    website: "https://twitter.com/arda",
     picture: ArdaOcal,
     description: `
     Arda Ocal is an Emmy Nominated Broadcaster who works at ESPN as an anchor for the NHL on ESPN and SportsCenter. Prior to ESPN, Arda's resume includes MSG Networks where he was an anchor and reporter for New York Rangers and New Jersey Devils game broadcasts, WWE, The Score Television Network, The Weather Network and Rogers TV, where he provided Play by Play and was a reporter for AHL and OHL game broadcasts.
@@ -51,7 +51,7 @@ Arda also worked for the NHL as the voice of the NHL Gaming World Championships,
     speech:
       "Why you need to think like an entrepreneur when it comes to your career",
     mail: "cnunez@uwaterloo.ca",
-    website: "camelianunez.com",
+    website: "https://camelianunez.com/",
     picture: CameliaNunez,
     description: `
     Camelia is an entrepreneurially-minded Prof and business founder with a deep passion for education. She is a polyglot (speaks 7 languages!) who always envisioned herself as a Spanish teacher. Instead, while working on a Phd in Hispanic Linguistics, her entrepreneurial instinct was activated, and staying true to her interest in language learning, she embarked on a different career path: stratup founder and CEO. Camelia co-founded Milao Language, an EdTech startup that provided on-demand conversation opportunities for language learners. Subsequently, Camelia founded Curious U, an international exchange program for highschool students from around the world.
@@ -73,19 +73,11 @@ Arda also worked for the NHL as the voice of the NHL Gaming World Championships,
         
     `,
   },
-  "Erin Andrews": {
-    title: "Climate Lead",
-    speech: "TBA",
-    mail: "erin@carbonhound.com",
-    website: "https://www.linkedin.com/in/erin-andrews-to/",
-    picture: ErinAndrews,
-    description: "Erin Andrews (She/Her) - Climate Lead",
-  },
   "Jordan Howlett": {
     title: "Content Creator, President of the Fast Food Secrets Club",
     speech: "Success Isn’t Linear",
     mail: "jordan@greenlightgroup.co",
-    website: "pillar.io/jordan_the_stallion8",
+    website: "https://pillar.io/jordan_the_stallion8",
     picture: JordanHowlett,
     description: `
     Jordan Howlett, popularly known as "@jordan_the_stallion8," captivates millions with candid monologues, reactions, stories, life hacks, and intriguing fast food secrets. His journey is marked by remarkable resilience, triumphing over homelessness, depression, and COVID-related setbacks. With an impressive following of over 20 million, Jordan is a firm believer in the transformative power of self-belief. He aspires to inspire others, encouraging them to overcome challenges and embrace their own resilience. Through his engaging content, Jordan showcases his authentic personality and shares valuable insights gained from his own experiences. Whether he's sharing relatable stories or providing practical tips, Jordan's presence resonates with viewers worldwide. As a source of motivation and entertainment, he continues to impact and uplift the digital community, fostering a spirit of empowerment and self-discovery.
@@ -96,7 +88,7 @@ Arda also worked for the NHL as the voice of the NHL Gaming World Championships,
     speech:
       "Generative AI will set Education back 2500 Years…And That’s a Good Thing",
     mail: "rclapper@torontomu.ca",
-    website: "Ametroslearning.com",
+    website: "https://ametroslearning.com/",
     picture: RobertClapperton,
     description: `
     Robert Clapperton is an Assistant Professor in the School of Professional Communications at 
@@ -113,7 +105,8 @@ Arda also worked for the NHL as the voice of the NHL Gaming World Championships,
     `,
   },
   "Liena Zaiden": {
-    speech: "TBA",
+    speech:
+      "Transforming Health with Nanotechnology: Shaping a Future of Impact",
     picture: LienaZaiden,
     description: `
     "Liena Zaidan is a Ph.D. candidate at the University of Waterloo's Faculty of Electrical and Computer Engineering. Her research focuses on field-effect transistor (FET) biosensors, with a mission to revolutionize early disease detection. Liena's journey has been profoundly influenced by her experience working on renewable energy projects in rural areas of developing countries in Africa. It was here that she witnessed firsthand the pressing need for rapid, reliable biosensors that could be a lifeline for communities lacking access to adequate healthcare.
