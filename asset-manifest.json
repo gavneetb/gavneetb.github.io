@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.423e3837.chunk.css",
-    "main.js": "/static/js/main.d74136d0.chunk.js",
-    "main.js.map": "/static/js/main.d74136d0.chunk.js.map",
+    "main.js": "/static/js/main.8ccb3d17.chunk.js",
+    "main.js.map": "/static/js/main.8ccb3d17.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02cc780a.js",
     "runtime-main.js.map": "/static/js/runtime-main.02cc780a.js.map",
     "static/js/2.86ade219.chunk.js": "/static/js/2.86ade219.chunk.js",
@@ -10,16 +10,16 @@
     "index.html": "/index.html",
     "static/css/main.423e3837.chunk.css.map": "/static/css/main.423e3837.chunk.css.map",
     "static/js/2.86ade219.chunk.js.LICENSE.txt": "/static/js/2.86ade219.chunk.js.LICENSE.txt",
-    "static/media/AnilGupta.cf2ccbd5.svg": "/static/media/AnilGupta.cf2ccbd5.svg",
+    "static/media/AnilGupta.cb3167fe.svg": "/static/media/AnilGupta.cb3167fe.svg",
     "static/media/ArdaOcal.5b691d76.svg": "/static/media/ArdaOcal.5b691d76.svg",
     "static/media/BlackLogo.84d9f5ed.svg": "/static/media/BlackLogo.84d9f5ed.svg",
     "static/media/CameliaNunez.044f92e2.svg": "/static/media/CameliaNunez.044f92e2.svg",
     "static/media/DhananjaJayalath.54480850.svg": "/static/media/DhananjaJayalath.54480850.svg",
-    "static/media/ErinAndrews.21fedf3f.svg": "/static/media/ErinAndrews.21fedf3f.svg",
+    "static/media/ErinAndrews.a6cdea09.svg": "/static/media/ErinAndrews.a6cdea09.svg",
     "static/media/FooterLogo.47d4e946.svg": "/static/media/FooterLogo.47d4e946.svg",
     "static/media/JordanHowlett.5e58f689.svg": "/static/media/JordanHowlett.5e58f689.svg",
     "static/media/LandingMain.5a7305ca.svg": "/static/media/LandingMain.5a7305ca.svg",
-    "static/media/LienaZaiden.b09eb8d0.svg": "/static/media/LienaZaiden.b09eb8d0.svg",
+    "static/media/LienaZaiden.e80e8822.svg": "/static/media/LienaZaiden.e80e8822.svg",
     "static/media/NoSpeakerProfile.91bc0559.svg": "/static/media/NoSpeakerProfile.91bc0559.svg",
     "static/media/RobertClapperton.20c8160c.svg": "/static/media/RobertClapperton.20c8160c.svg",
     "static/media/TylerJing.8d7821d5.svg": "/static/media/TylerJing.8d7821d5.svg",
@@ -90,6 +90,6 @@
     "static/js/runtime-main.02cc780a.js",
     "static/js/2.86ade219.chunk.js",
     "static/css/main.423e3837.chunk.css",
-    "static/js/main.d74136d0.chunk.js"
+    "static/js/main.8ccb3d17.chunk.js"
   ]
 }
