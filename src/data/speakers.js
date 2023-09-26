@@ -104,7 +104,7 @@ Arda also worked for the NHL as the voice of the NHL Gaming World Championships,
     corporations, and professional associations across North America.   
     `,
   },
-  "Liena Zaiden": {
+  "Liena Zaidan": {
     speech:
       "Transforming Health with Nanotechnology: Shaping a Future of Impact",
     picture: LienaZaiden,

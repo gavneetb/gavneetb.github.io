@@ -5,6 +5,7 @@ import LandingMain from "../../components/LandingMain";
 import backgroundImage from "../../res/images/LandingMain.svg";
 import WhatSection from "../../res/images/WhatSection.svg";
 import mainpage1 from "../../res/images/mainpage1.svg";
+import schedule from "../../res/images/schedule.svg";
 
 import "./Landing.css";
 
@@ -26,6 +27,14 @@ function Landing() {
     width: "400vh",
     backgroundColor: "white",
     scale: "0.1",
+  };
+
+  const divStyle3 = {
+    backgroundImage: `url(${schedule})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "160vh",
   };
 
   return (
@@ -69,11 +78,9 @@ function Landing() {
             problem-solvers, entrepreneurs, writers, activists, and
             change-makers.
           </p>
-          <a href="https://bit.ly/registerTEDxUW2023" target="_blank">
-            <button class="sign-up-button">Register for TEDxUW 2023!</button>
-          </a>
         </div>
       </div>
+      <div style={divStyle3}></div>
     </div>
   );
 }

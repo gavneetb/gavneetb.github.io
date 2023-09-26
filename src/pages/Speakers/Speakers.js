@@ -40,7 +40,7 @@ function About() {
             />
             <RowGroup
               even={true}
-              persons={["Liena Zaiden", "Jordan Howlett"]}
+              persons={["Liena Zaidan", "Jordan Howlett"]}
             />
             <RowGroup
               even={true}
