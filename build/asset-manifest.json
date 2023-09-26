@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.423e3837.chunk.css",
-    "main.js": "/static/js/main.8ccb3d17.chunk.js",
-    "main.js.map": "/static/js/main.8ccb3d17.chunk.js.map",
+    "main.js": "/static/js/main.33152822.chunk.js",
+    "main.js.map": "/static/js/main.33152822.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02cc780a.js",
     "runtime-main.js.map": "/static/js/runtime-main.02cc780a.js.map",
     "static/js/2.86ade219.chunk.js": "/static/js/2.86ade219.chunk.js",
@@ -41,6 +41,7 @@
     "static/media/city_of_waterloo.0ab42247.svg": "/static/media/city_of_waterloo.0ab42247.svg",
     "static/media/ellie_xu.734f0316.svg": "/static/media/ellie_xu.734f0316.svg",
     "static/media/enoch_tin.020b15d8.svg": "/static/media/enoch_tin.020b15d8.svg",
+    "static/media/extrempa.29924bdc.svg": "/static/media/extrempa.29924bdc.svg",
     "static/media/facebook.d004db7f.svg": "/static/media/facebook.d004db7f.svg",
     "static/media/franklin_ramirez.50fcf469.svg": "/static/media/franklin_ramirez.50fcf469.svg",
     "static/media/gavneet_bhandal.ba80817b.svg": "/static/media/gavneet_bhandal.ba80817b.svg",
@@ -75,6 +76,7 @@
     "static/media/salma_marzouk.5d42e256.svg": "/static/media/salma_marzouk.5d42e256.svg",
     "static/media/sandy_rbahia.dfecd5b8.svg": "/static/media/sandy_rbahia.dfecd5b8.svg",
     "static/media/sasha_takoo.a561c7cd.svg": "/static/media/sasha_takoo.a561c7cd.svg",
+    "static/media/schedule.9ad01406.svg": "/static/media/schedule.9ad01406.svg",
     "static/media/shutterstock.9757eb67.svg": "/static/media/shutterstock.9757eb67.svg",
     "static/media/smiksha_sharma.d8dcdce6.svg": "/static/media/smiksha_sharma.d8dcdce6.svg",
     "static/media/tedxuw_2023.80fe964c.svg": "/static/media/tedxuw_2023.80fe964c.svg",
@@ -83,6 +85,7 @@
     "static/media/twitter.57b10c42.svg": "/static/media/twitter.57b10c42.svg",
     "static/media/uniofwaterloo.c39b5488.png": "/static/media/uniofwaterloo.c39b5488.png",
     "static/media/university_of_waterloo.9e5d66cd.svg": "/static/media/university_of_waterloo.9e5d66cd.svg",
+    "static/media/versa.24967450.svg": "/static/media/versa.24967450.svg",
     "static/media/windmillbg.9fb7bddc.svg": "/static/media/windmillbg.9fb7bddc.svg",
     "static/media/youtube.540bf893.svg": "/static/media/youtube.540bf893.svg"
   },
@@ -90,6 +93,6 @@
     "static/js/runtime-main.02cc780a.js",
     "static/js/2.86ade219.chunk.js",
     "static/css/main.423e3837.chunk.css",
-    "static/js/main.8ccb3d17.chunk.js"
+    "static/js/main.33152822.chunk.js"
   ]
 }
