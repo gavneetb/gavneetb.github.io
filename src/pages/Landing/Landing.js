@@ -5,7 +5,7 @@ import LandingMain from "../../components/LandingMain";
 import backgroundImage from "../../res/images/LandingMain.svg";
 import WhatSection from "../../res/images/WhatSection.svg";
 import mainpage1 from "../../res/images/mainpage1.svg";
-import schedule from "../../res/images/schedule.svg";
+import schedule_section from "../../res/images/schedule_section.svg";
 
 import "./Landing.css";
 
@@ -30,11 +30,11 @@ function Landing() {
   };
 
   const divStyle3 = {
-    backgroundImage: `url(${schedule})`,
+    backgroundImage: `url(${schedule_section})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "160vh",
+    height: "200vh",
   };
 
   return (
