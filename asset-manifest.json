@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.423e3837.chunk.css",
-    "main.js": "/static/js/main.44aa6dfd.chunk.js",
-    "main.js.map": "/static/js/main.44aa6dfd.chunk.js.map",
+    "main.js": "/static/js/main.4558e4cd.chunk.js",
+    "main.js.map": "/static/js/main.4558e4cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02cc780a.js",
     "runtime-main.js.map": "/static/js/runtime-main.02cc780a.js.map",
     "static/js/2.86ade219.chunk.js": "/static/js/2.86ade219.chunk.js",
@@ -76,7 +76,7 @@
     "static/media/salma_marzouk.5d42e256.svg": "/static/media/salma_marzouk.5d42e256.svg",
     "static/media/sandy_rbahia.dfecd5b8.svg": "/static/media/sandy_rbahia.dfecd5b8.svg",
     "static/media/sasha_takoo.a561c7cd.svg": "/static/media/sasha_takoo.a561c7cd.svg",
-    "static/media/schedule.b618ace9.svg": "/static/media/schedule.b618ace9.svg",
+    "static/media/schedule_section.26db322c.svg": "/static/media/schedule_section.26db322c.svg",
     "static/media/shutterstock.b3a2cf48.svg": "/static/media/shutterstock.b3a2cf48.svg",
     "static/media/smiksha_sharma.d8dcdce6.svg": "/static/media/smiksha_sharma.d8dcdce6.svg",
     "static/media/tedxuw_2023.80fe964c.svg": "/static/media/tedxuw_2023.80fe964c.svg",
@@ -93,6 +93,6 @@
     "static/js/runtime-main.02cc780a.js",
     "static/js/2.86ade219.chunk.js",
     "static/css/main.423e3837.chunk.css",
-    "static/js/main.44aa6dfd.chunk.js"
+    "static/js/main.4558e4cd.chunk.js"
   ]
 }
