@@ -8,6 +8,8 @@ import shutterstock from "../../res/images/sponsors/shutterstock.svg";
 import uniofwaterloo from "../../res/images/sponsors/uniofwaterloo.png";
 import versa from "../../res/images/sponsors/versa.svg";
 import extrempa from "../../res/images/sponsors/extrempa.svg";
+import ctrl_v from "../../res/images/sponsors/ctrl_v.svg";
+import dominoes from "../../res/images/sponsors/dominoes.svg";
 
 import Header from "../../components/Header/Header";
 import SectionMain from "../../components/SectionMain";
@@ -275,6 +277,64 @@ export default function Sponsors() {
           </a>
         </div>
 
+        {/* Silver Sponsors */}
+        <div
+          style={{
+            color: "#FFF",
+            fontFeatureSettings: "'calt' off",
+            fontFamily: "Inter",
+            fontSize: "50px",
+            fontWeight: 700,
+            lineHeight: "50px",
+            letterSpacing: "-1px",
+            width: "450px",
+            margin: "70px auto",
+          }}
+        >
+          Silver Sponsors
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            margin: "0 auto 170px auto",
+          }}
+        >
+          <a
+            href="https://www.ctrlv.ca/location/waterloo"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={linkStyle("ctrl_v")}
+            onMouseEnter={() => setHoveredLogo("ctrl_v")}
+            onMouseLeave={() => setHoveredLogo(null)}
+          >
+            <div
+              style={{
+                backgroundColor: "white",
+                padding: "10px",
+                marginRight: "30px",
+                borderTopRightRadius: "50px",
+                borderBottomLeftRadius: "50px",
+                borderWidth: "6px",
+                borderColor: "#C9D0DB",
+                borderStyle: "solid", // Add this line
+              }}
+            >
+              <img
+                src={ctrl_v}
+                alt="Silver Sponsor 1"
+                style={{
+                  width: "480px",
+                  height: "230px",
+                  fill: "#FFF",
+                }}
+              />
+            </div>
+          </a>
+        </div>
+
         {/* Bronze Sponsors */}
         <div
           style={{
@@ -324,8 +384,8 @@ export default function Sponsors() {
                 src={panago}
                 alt="Bronze Sponsor 1"
                 style={{
-                  width: "330px",
-                  height: "169px",
+                  width: "300px",
+                  height: "150px",
                   fill: "#FFF",
                 }}
               />
@@ -343,6 +403,7 @@ export default function Sponsors() {
               style={{
                 backgroundColor: "white",
                 padding: "10px",
+                marginRight: "30px",
                 borderTopRightRadius: "50px",
                 borderBottomLeftRadius: "50px",
                 borderWidth: "6px",
@@ -354,8 +415,38 @@ export default function Sponsors() {
                 src={shutterstock}
                 alt="Bronze Sponsor 2"
                 style={{
-                  width: "330px",
-                  height: "169px",
+                  width: "300px",
+                  height: "150px",
+                  fill: "#FFF",
+                }}
+              />
+            </div>
+          </a>
+          <a
+            href="https://www.dominos.ca/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={linkStyle("dominoes")}
+            onMouseEnter={() => setHoveredLogo("dominoes")}
+            onMouseLeave={() => setHoveredLogo(null)}
+          >
+            <div
+              style={{
+                backgroundColor: "white",
+                padding: "10px",
+                borderTopRightRadius: "50px",
+                borderBottomLeftRadius: "50px",
+                borderWidth: "6px",
+                borderColor: "#C5836E",
+                borderStyle: "solid", // Add this line
+              }}
+            >
+              <img
+                src={dominoes}
+                alt="Bronze Sponsor 2"
+                style={{
+                  width: "300px",
+                  height: "150px",
                   fill: "#FFF",
                 }}
               />

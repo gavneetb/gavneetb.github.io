@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Header from "../../components/Header/Header";
 import LandingMain from "../../components/LandingMain";
@@ -34,8 +34,15 @@ function Landing() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "200vh",
+    height: "240vh",
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      let element = document.getElementById(location.hash.substring(1));
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
 
   return (
     <div>
@@ -80,7 +87,7 @@ function Landing() {
           </p>
         </div>
       </div>
-      <div style={divStyle3}></div>
+      <div id="conference-schedule" style={divStyle3}></div>
     </div>
   );
 }

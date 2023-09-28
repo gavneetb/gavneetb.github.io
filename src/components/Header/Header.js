@@ -42,7 +42,7 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className="header-section">
+          {/* <div className="header-section">
             <div
               style={{
                 backgroundColor: "black",
@@ -51,9 +51,10 @@ const Header = () => {
                 borderRadius: "20px",
               }}
             >
-              Scroll down for Schedule!
+              {" "}
+              <Link to="/#conference-schedule">Click for Schedule!</Link>
             </div>
-          </div>
+          </div> */}
           <div className="header-section">
             <a href="mailto:outreach@tedxuw.com" className="nav-btn">
               <img style={{ width: 15, height: 15 }} src={mail} alt="logo" />
