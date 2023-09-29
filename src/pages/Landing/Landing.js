@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Header from "../../components/Header/Header";
 import LandingMain from "../../components/LandingMain";
@@ -25,6 +25,13 @@ function Landing() {
     backgroundPosition: "center",
     height: "148vh",
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      let element = document.getElementById(location.hash.substring(1));
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
 
   return (
     <div>
@@ -68,9 +75,6 @@ function Landing() {
             problem-solvers, entrepreneurs, writers, activists, and
             change-makers.
           </p>
-          <a href="https://bit.ly/registerTEDxUW2023" target="_blank">
-            <button class="sign-up-button">Register for TEDxUW 2023!</button>
-          </a>
         </div>
       </div>
     </div>

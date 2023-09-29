@@ -63,20 +63,26 @@ const Header = () => {
                 <li className="nav-link">
                   <Link to="/Blog">BLOG</Link>
                 </li>
+                <li className="nav-link">
+                  <Link to="/Schedule">SCHEDULE</Link>
+                </li>
               </ul>
             </nav>
           </div>
-          <div className="header-section2">
-            <a
-              href="https://bit.ly/registerTEDxUW2023"
-              className="nav-btn"
-              target="_blank"
-              rel="noopener noreferrer"
+          {/* <div className="header-section">
+            <div
+              style={{
+                backgroundColor: "black",
+                padding: "10px 30px",
+                textTransform: "uppercase",
+                borderRadius: "20px",
+              }}
             >
-              <span style={{ padding: "0 30px", textTransform: "uppercase" }}>
-                Register for TEDxUW 2023!
-              </span>
-            </a>
+              {" "}
+              <Link to="/#conference-schedule">Click for Schedule!</Link>
+            </div>
+          </div> */}
+          <div className="header-section">
             <a href="mailto:outreach@tedxuw.com" className="nav-btn">
               <img style={{ width: 15, height: 15 }} src={mail} alt="logo" />
             </a>

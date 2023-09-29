@@ -40,13 +40,12 @@ function About() {
             />
             <RowGroup
               even={true}
-              persons={["Erin Andrews", "Jordan Howlett"]}
+              persons={["Liena Zaidan", "Jordan Howlett"]}
             />
             <RowGroup
               even={true}
-              persons={["Robert Clapperton", "Liena Zaiden"]}
+              persons={["Robert Clapperton", "Tyler Jing"]}
             />
-            <RowGroup even={false} persons={["", "Tyler Jing", ""]} />
           </div>
         </div>
       </div>
