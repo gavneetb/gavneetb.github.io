@@ -5,6 +5,7 @@ import LandingMain from "../../components/LandingMain";
 import backgroundImage from "../../res/images/LandingMain.svg";
 import WhatSection from "../../res/images/WhatSection.svg";
 import mainpage1 from "../../res/images/mainpage1.svg";
+import TEDxUW_Section from "../../res/images/infoPics/TEDxUWSection.svg";
 
 import "./Landing.css";
 
@@ -18,14 +19,11 @@ function Landing() {
   };
 
   const divStyle2 = {
-    backgroundImage: `url(${mainpage1})`,
+    backgroundImage: `url(${TEDxUW_Section})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "100vh",
-    width: "400vh",
-    backgroundColor: "white",
-    scale: "0.1",
+    height: "148vh",
   };
 
   useEffect(() => {
@@ -43,7 +41,8 @@ function Landing() {
         subTitle="Thank you to our generous sponsors for the support!"
         Image={backgroundImage}
       />
-      <div style={divStyle}></div>
+      <div class="what-section-main" style={divStyle}></div>
+      <div class="what-section-mobile" style={divStyle2}></div>
       <div>
         <div class="mission-container">
           <h1 class="mission-title">Our Mission</h1>

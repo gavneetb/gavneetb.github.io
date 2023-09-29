@@ -21,7 +21,7 @@ class Footer extends Component {
             <div class="row">
               <div class="column column-1">
                 <div class="stump-box">
-                  <div class="footer-row">
+                  <div class="footer-row2">
                     <img src={tedxuw_2023} />
                   </div>
                   <div class="footer-row">
