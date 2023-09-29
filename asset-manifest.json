@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.423e3837.chunk.css",
-    "main.js": "/static/js/main.abd39280.chunk.js",
-    "main.js.map": "/static/js/main.abd39280.chunk.js.map",
+    "main.js": "/static/js/main.5e68ebaf.chunk.js",
+    "main.js.map": "/static/js/main.5e68ebaf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02cc780a.js",
     "runtime-main.js.map": "/static/js/runtime-main.02cc780a.js.map",
     "static/js/2.f8bbfb1e.chunk.js": "/static/js/2.f8bbfb1e.chunk.js",
@@ -39,8 +39,8 @@
     "static/media/caitlin_kwan.0977a2fd.svg": "/static/media/caitlin_kwan.0977a2fd.svg",
     "static/media/catherine_hoang.cc82df8c.svg": "/static/media/catherine_hoang.cc82df8c.svg",
     "static/media/city_of_waterloo.0ab42247.svg": "/static/media/city_of_waterloo.0ab42247.svg",
-    "static/media/ctrl_v.5eb6c4a2.svg": "/static/media/ctrl_v.5eb6c4a2.svg",
-    "static/media/dominoes.94498eed.svg": "/static/media/dominoes.94498eed.svg",
+    "static/media/ctrl_v.f7592ee9.svg": "/static/media/ctrl_v.f7592ee9.svg",
+    "static/media/dominoes.8c92abb9.svg": "/static/media/dominoes.8c92abb9.svg",
     "static/media/ellie_xu.734f0316.svg": "/static/media/ellie_xu.734f0316.svg",
     "static/media/enoch_tin.020b15d8.svg": "/static/media/enoch_tin.020b15d8.svg",
     "static/media/extrempa.02d82ece.svg": "/static/media/extrempa.02d82ece.svg",
@@ -78,7 +78,7 @@
     "static/media/salma_marzouk.5d42e256.svg": "/static/media/salma_marzouk.5d42e256.svg",
     "static/media/sandy_rbahia.dfecd5b8.svg": "/static/media/sandy_rbahia.dfecd5b8.svg",
     "static/media/sasha_takoo.a561c7cd.svg": "/static/media/sasha_takoo.a561c7cd.svg",
-    "static/media/schedule_section.26db322c.svg": "/static/media/schedule_section.26db322c.svg",
+    "static/media/schedule_section.e9b75d4f.svg": "/static/media/schedule_section.e9b75d4f.svg",
     "static/media/shutterstock.b3a2cf48.svg": "/static/media/shutterstock.b3a2cf48.svg",
     "static/media/smiksha_sharma.d8dcdce6.svg": "/static/media/smiksha_sharma.d8dcdce6.svg",
     "static/media/tedxuw_2023.80fe964c.svg": "/static/media/tedxuw_2023.80fe964c.svg",
@@ -95,6 +95,6 @@
     "static/js/runtime-main.02cc780a.js",
     "static/js/2.f8bbfb1e.chunk.js",
     "static/css/main.423e3837.chunk.css",
-    "static/js/main.abd39280.chunk.js"
+    "static/js/main.5e68ebaf.chunk.js"
   ]
 }
