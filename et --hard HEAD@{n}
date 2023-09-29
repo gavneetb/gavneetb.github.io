@@ -1,0 +1,72 @@
+[33md604177[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{0}: checkout: moving from master to responsive2
+[33md604177[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{1}: checkout: moving from responsive2 to master
+[33md604177[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{2}: reset: moving to HEAD@{1}
+[33m0566c84[m HEAD@{3}: checkout: moving from master to responsive2
+[33md604177[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{4}: reset: moving to HEAD
+[33md604177[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{5}: commit: added new sponsors and removed button
+[33m8db1a64[m HEAD@{6}: commit: updated schedule and added sponsor links
+[33m3f5e64d[m HEAD@{7}: checkout: moving from gh-pages to master
+[33mac07255[m[33m ([m[1;32mgh-pages[m[33m)[m HEAD@{8}: checkout: moving from master to gh-pages
+[33m3f5e64d[m HEAD@{9}: commit: new changes
+[33m1026d2c[m HEAD@{10}: commit: added new sponsors, added schedule and removed registration links
+[33m9c8ad60[m HEAD@{11}: commit: speakers page
+[33m6d52f44[m HEAD@{12}: checkout: moving from responsive2 to master
+[33m0566c84[m HEAD@{13}: commit: added responsive styling
+[33m6d52f44[m HEAD@{14}: checkout: moving from master to responsive2
+[33m6d52f44[m HEAD@{15}: checkout: moving from responsive to master
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{16}: checkout: moving from master to responsive
+[33m6d52f44[m HEAD@{17}: checkout: moving from responsive to master
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{18}: checkout: moving from master to responsive
+[33m6d52f44[m HEAD@{19}: checkout: moving from master to master
+[33m6d52f44[m HEAD@{20}: commit: finished speakers page
+[33m39dc5db[m HEAD@{21}: checkout: moving from responsive to master
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{22}: reset: moving to HEAD
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{23}: checkout: moving from master to responsive
+[33m39dc5db[m HEAD@{24}: commit: added mini changes
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{25}: checkout: moving from responsive to master
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{26}: checkout: moving from master to responsive
+[33m258286d[m[33m ([m[1;32mresponsive[m[33m)[m HEAD@{27}: commit: so many changes, refer to September notes
+[33m28978a5[m HEAD@{28}: commit: changed homepage address
+[33mffce24b[m HEAD@{29}: commit: small changes to About pages
+[33mb115c3f[m HEAD@{30}: commit: edits for august 22nd
+[33m8aa14c4[m HEAD@{31}: commit: changed header component
+[33m2364694[m HEAD@{32}: commit: second changes to hashrouter
+[33m82d81ad[m HEAD@{33}: commit: changed hash router
+[33me0c8645[m HEAD@{34}: commit: made changes to homepage
+[33m134b56e[m HEAD@{35}: commit: new routes added
+[33mb2e61b5[m HEAD@{36}: commit: ran new build
+[33mdd34b21[m HEAD@{37}: commit: new build folder
+[33me24bea9[m HEAD@{38}: commit: changed routes
+[33m463dda3[m HEAD@{39}: pull: Merge made by the 'ort' strategy.
+[33mb5c3ab1[m HEAD@{40}: commit: moving everything into docs folder
+[33m6bc527c[m HEAD@{41}: commit: new build folder
+[33ma6e9670[m HEAD@{42}: commit: 2 new pages
+[33m4d5e453[m HEAD@{43}: pull: Fast-forward
+[33mb562bb4[m HEAD@{44}: checkout: moving from main to master
+[33m1ab7bc0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{45}: checkout: moving from master to main
+[33mb562bb4[m HEAD@{46}: checkout: moving from main to master
+[33m1ab7bc0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{47}: checkout: moving from master to main
+[33mb562bb4[m HEAD@{48}: checkout: moving from main to master
+[33m1ab7bc0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{49}: commit: final changes
+[33mdc3460a[m HEAD@{50}: commit: August 4th 2023
+[33mb562bb4[m HEAD@{51}: pull: Fast-forward
+[33m53e44d1[m HEAD@{52}: commit: done adding different pages
+[33m44eef35[m HEAD@{53}: pull: Fast-forward
+[33m4f907be[m HEAD@{54}: commit: added footer, need to fix alignment though
+[33mf3192e3[m HEAD@{55}: commit: creating a footer
+[33m9679fa4[m HEAD@{56}: pull: Fast-forward
+[33m5ec759a[m HEAD@{57}: reset: moving to HEAD
+[33m5ec759a[m HEAD@{58}: pull: Fast-forward
+[33m02061fb[m HEAD@{59}: checkout: moving from navBar to main
+[33m87dfb90[m[33m ([m[1;31morigin/navBar[m[33m, [m[1;32mnavBar[m[33m)[m HEAD@{60}: checkout: moving from main to navBar
+[33m02061fb[m HEAD@{61}: pull: Fast-forward
+[33m05d3b16[m HEAD@{62}: checkout: moving from navBar to main
+[33m87dfb90[m[33m ([m[1;31morigin/navBar[m[33m, [m[1;32mnavBar[m[33m)[m HEAD@{63}: commit: done changing buttons, need to add remaining links
+[33m7d3fa20[m HEAD@{64}: commit: done adding drop down
+[33mb838d4a[m HEAD@{65}: commit: done with navbar, need to work on mail button and add links
+[33m05d3b16[m HEAD@{66}: checkout: moving from main to navBar
+[33m05d3b16[m HEAD@{67}: checkout: moving from footer to main
+[33m0ec0916[m[33m ([m[1;31morigin/footer[m[33m, [m[1;32mfooter[m[33m)[m HEAD@{68}: commit: done adding pictures, names, and creating grid for about page
+[33m05d3b16[m HEAD@{69}: checkout: moving from main to footer
+[33m05d3b16[m HEAD@{70}: Branch: renamed refs/heads/master to refs/heads/main
+[33m05d3b16[m HEAD@{72}: commit (initial): updating main branch

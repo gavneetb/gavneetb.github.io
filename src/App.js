@@ -20,6 +20,7 @@ import Faq from "./pages/Faq/Faq";
 import Story from "./pages/Story/Story";
 import Sponsors from "./pages/Sponsors/Sponsors";
 import Blog from "./pages/Blog/Blog";
+import Schedule from "./pages/Schedule/Schedule";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/Sponsors" element={<Sponsors />} />
           <Route path="/Speakers" element={<Speakers />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/Schedule" element={<Schedule />} />
         </Routes>
       </HashRouter>
       <Footer />

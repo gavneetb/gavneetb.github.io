@@ -5,7 +5,6 @@ import LandingMain from "../../components/LandingMain";
 import backgroundImage from "../../res/images/LandingMain.svg";
 import WhatSection from "../../res/images/WhatSection.svg";
 import mainpage1 from "../../res/images/mainpage1.svg";
-import schedule_section from "../../res/images/schedule_section.svg";
 
 import "./Landing.css";
 
@@ -27,14 +26,6 @@ function Landing() {
     width: "400vh",
     backgroundColor: "white",
     scale: "0.1",
-  };
-
-  const divStyle3 = {
-    backgroundImage: `url(${schedule_section})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "240vh",
   };
 
   useEffect(() => {
@@ -87,7 +78,6 @@ function Landing() {
           </p>
         </div>
       </div>
-      <div id="conference-schedule" style={divStyle3}></div>
     </div>
   );
 }
