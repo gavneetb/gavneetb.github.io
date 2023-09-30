@@ -7,6 +7,20 @@ import TeamMemberCard from "../../components/TeamMemberCard";
 import people from "../../data/people";
 
 export default function EvenRowGroup({ persons, even }) {
+  //MOBILE VIEW
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 450);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 450);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const [whichProfileOpen, setWhichProfileOpen] = useState(null);
 
   const [accordianIsOpen, setAccordianIsOpen] = useState(false);
@@ -57,6 +71,7 @@ export default function EvenRowGroup({ persons, even }) {
 
           return (
             <TeamMemberCard
+              isMobileView={isMobileView}
               name={person}
               program={program}
               role={title}

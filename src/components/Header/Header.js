@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import tedxuw_2023 from "../../res/images/tedxuw_2023.svg";
 import mail from "../../res/images/mail.svg";
 import "./Header.css";
@@ -6,6 +6,20 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Move these lines to the top level
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleMenuToggle = () => {
     setIsMenuOpen((prev) => !prev);
@@ -38,13 +52,15 @@ const Header = () => {
                   &times;
                 </div>
               )}
+
               <ul className="nav-layout">
+                {/* ... (rest of the navigation links) */}
                 <li className="nav-link">
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <Link className="nav__link" to="#">
                       ABOUT
                     </Link>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                       <Link to="/OurStory">OUR STORY</Link>
                       <Link to="/About">MEET THE TEAM</Link>
                       {/* <Link to="/Partners">PAST SPONSORS</Link> */}
@@ -67,26 +83,76 @@ const Header = () => {
                   <Link to="/Schedule">SCHEDULE</Link>
                 </li>
               </ul>
+
+              {/* Buttons for mobile view inside hamburger menu */}
+              {isMenuOpen && windowWidth <= 450 && (
+                <>
+                  <div className="header-section2">
+                    <div
+                      style={{
+                        backgroundColor: "black",
+                        padding: "10px 30px",
+                        textTransform: "uppercase",
+                        borderRadius: "20px",
+                      }}
+                    >
+                      <a
+                        href="https://drive.google.com/file/d/1QR0qKMLp_-ETpeV4scA28iE3bkmwxlIV/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "inherit", textDecoration: "none" }}
+                      >
+                        Click here for the pamphlet!
+                      </a>
+                    </div>
+                  </div>
+                  <div className="header-section2">
+                    <a href="mailto:outreach@tedxuw.com" className="nav-btn">
+                      <img
+                        style={{ width: 15, height: 15 }}
+                        src={mail}
+                        alt="logo"
+                      />
+                    </a>
+                  </div>
+                </>
+              )}
             </nav>
           </div>
-          {/* <div className="header-section">
-            <div
-              style={{
-                backgroundColor: "black",
-                padding: "10px 30px",
-                textTransform: "uppercase",
-                borderRadius: "20px",
-              }}
-            >
-              {" "}
-              <Link to="/#conference-schedule">Click for Schedule!</Link>
-            </div>
-          </div> */}
-          <div className="header-section">
-            <a href="mailto:outreach@tedxuw.com" className="nav-btn">
-              <img style={{ width: 15, height: 15 }} src={mail} alt="logo" />
-            </a>
-          </div>
+
+          {/* Buttons for desktop view outside of hamburger menu */}
+          {!isMenuOpen && window.innerWidth > 450 && (
+            <>
+              <div className="header-section2">
+                <div
+                  style={{
+                    backgroundColor: "black",
+                    padding: "10px 30px",
+                    textTransform: "uppercase",
+                    borderRadius: "20px",
+                  }}
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1QR0qKMLp_-ETpeV4scA28iE3bkmwxlIV/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "inherit", textDecoration: "none" }}
+                  >
+                    Click here for the pamphlet!
+                  </a>
+                </div>
+              </div>
+              <div className="header-section2">
+                <a href="mailto:outreach@tedxuw.com" className="nav-btn">
+                  <img
+                    style={{ width: 15, height: 15 }}
+                    src={mail}
+                    alt="logo"
+                  />
+                </a>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

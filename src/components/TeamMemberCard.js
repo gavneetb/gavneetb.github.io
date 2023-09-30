@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import aboutLinkedin from "../res/images/logos/aboutLinkedin.svg";
 
 export default function TeamMemberCard({
+  isMobileView,
   name,
   program,
   role,
@@ -64,26 +65,28 @@ export default function TeamMemberCard({
         >
           {role}
         </h3>
-        <span
-          className="button"
-          style={{
-            fontFamily: "inter",
-            fontWeight: 200,
-            color: "#FFFFFF",
-            borderBottom: "1px solid #FFFFFF",
-          }}
-          onClick={() => {
-            if (reading) {
-              setMyProfileOpen(null);
-            } else {
-              setMyProfileOpen(myIndex);
-            }
-            toggleAccordian(!reading);
-            setPersonInfo(program, freeTime, description);
-          }}
-        >
-          {reading ? "Read Less" : "Read More"}
-        </span>
+        {!isMobileView && (
+          <span
+            className="button"
+            style={{
+              fontFamily: "inter",
+              fontWeight: 200,
+              color: "#FFFFFF",
+              borderBottom: "1px solid #FFFFFF",
+            }}
+            onClick={() => {
+              if (reading) {
+                setMyProfileOpen(null);
+              } else {
+                setMyProfileOpen(myIndex);
+              }
+              toggleAccordian(!reading);
+              setPersonInfo(program, freeTime, description);
+            }}
+          >
+            {reading ? "Read Less" : "Read More"}
+          </span>
+        )}
       </div>
     </div>
   );

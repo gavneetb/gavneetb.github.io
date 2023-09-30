@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import SectionMain from "../../components/SectionMain";
 import mountainsBackground from "../../res/images/mountainsBackground.svg";
+
+import "./Story.css";
 
 import ourstory1 from "../../res/images/ourstory1.svg";
 import ourstory2 from "../../res/images/ourstory2.svg";
@@ -13,6 +15,18 @@ import topImage from "../../res/images/topImage.svg";
 import bottomImage from "../../res/images/bottomImage.svg";
 
 export default function Story() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 450);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 450);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div>
       <Header />
@@ -28,8 +42,8 @@ export default function Story() {
           alignItems: "center",
         }}
       >
-        <div style={{ width: "85%" }}>
-          <div className="about-header">What is TedxUW?</div>
+        <div style={{ width: isMobile ? "90%" : "85%" }}>
+          <div className="about-header">What is TEDxUW?</div>
         </div>
       </div>
       <div
@@ -46,7 +60,7 @@ export default function Story() {
           lineHeight: "30px",
         }}
       >
-        <div style={{ maxWidth: "800px" }}>
+        <div style={{ maxWidth: isMobile ? "90%" : "800px" }}>
           Founded in 2011, TEDxUW is the University of Waterloo's official TEDx
           experience. It is one in a series of 3,000+ events being held
           worldwide as part of the international TED movement to create open
@@ -58,17 +72,16 @@ export default function Story() {
       </div>
       <div
         style={{
-          background: "#323232",
-          width: "1070px",
-          height: "195px",
+          background: isMobile ? "transparent" : "#323232",
+          width: isMobile ? "90%" : "1070px",
           borderRadius: "15px",
           margin: "0 auto",
           marginTop: "60px",
           color: "#FFF",
           fontFamily: "Inter, sans-serif",
-          fontSize: "16px",
+          fontSize: isMobile ? "14px" : "16px",
           textAlign: "center",
-          padding: "20px",
+          padding: isMobile ? "10px 15px" : "20px",
         }}
       >
         <div
@@ -111,7 +124,12 @@ export default function Story() {
           letterSpacing: "0.6px",
         }}
       >
-        <div style={{ maxWidth: "800px" }}>
+        <div
+          style={{
+            maxWidth: isMobile ? "90%" : "800px",
+            textAlign: isMobile ? "center" : "left",
+          }}
+        >
           With TEDxUW talks published on TED.com and amassing over 5 million
           views on YouTube, TEDxUW sparks innovation across the globe starting
           at the University of Waterloo.
@@ -121,9 +139,10 @@ export default function Story() {
       <div
         style={{
           display: "flex",
+          flexDirection: isMobile ? "column" : "row",
           maxWidth: "800px",
           margin: "0 auto",
-          marginTop: "20px", // Add some space between the previous div and this one
+          marginTop: "20px",
         }}
       >
         <div style={{ flex: "1" }}>
@@ -151,7 +170,13 @@ export default function Story() {
             }}
           />
         </div>
-        <div style={{ flex: "2", marginLeft: "20px" }}>
+        <div
+          style={{
+            flex: "2",
+            marginLeft: isMobile ? "0px" : "20px",
+            marginTop: isMobile ? "20px" : "0px",
+          }}
+        >
           <div
             style={{
               lineHeight: "30px",
@@ -199,11 +224,13 @@ export default function Story() {
         </div>
       </div>
       <div
+        className="stacked-images"
         style={{
-          height: "800px",
-          width: "1100px",
+          height: isMobile ? "auto" : "800px",
+          width: isMobile ? "90%" : "1100px",
           margin: "0 auto",
           marginTop: "50px",
+          position: "relative",
         }}
       >
         <div style={{ position: "relative" }}>

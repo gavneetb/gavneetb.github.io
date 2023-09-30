@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import BlogComponent from "./BlogComponent";
-import imprint from "../../res/images/sponsors/imprint.svg";
 
 import Header from "../../components/Header/Header";
 import SectionMain from "../../components/SectionMain";
@@ -12,6 +11,18 @@ import blogupdate3 from "../../res/images/blog/blogupdate3.svg";
 import blogupdate4 from "../../res/images/blog/blogupdate4.svg";
 
 export default function Blog() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize); // cleanup on unmount
+  }, []);
+
+  const containerStyle = windowWidth <= 450 ? { margin: "20px" } : {};
+
   return (
     <>
       <Header />
@@ -20,13 +31,13 @@ export default function Blog() {
         subTitle="Check out our articles here."
         bgImg={mountainsBackground}
       />
-      <div className="main-container">
+      <div className="main-container" >
         <BlogComponent
           src={blogupdate1}
           mainCaption="TED vs TEDx Talks"
           subCaption="3 minute read — July 20, 2023"
           link="https://medium.com/@tedxuw/ted-vs-tedx-talks-263958555de5"
-          large
+          {...(windowWidth > 450? { large: true } : {})}
         />
         <div className="row">
           <BlogComponent

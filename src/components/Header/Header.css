@@ -248,8 +248,12 @@ button {
   }
 
   .header-section2 {
-    display: none;
-  }
+    order: 2; /* pushes the buttons below the menu links */
+    display: flex; /* if you want to lay out the buttons horizontally */
+    flex-direction: column; /* if you want the buttons to stack vertically */
+    align-items: center; /* center the buttons */
+    width: 100%; /* take the full width of the nav */
+    margin-top: 20px; /* some spacing above the buttons */  }
   
   .hamburger {
     display: flex;
@@ -270,8 +274,11 @@ button {
   }
 
   .nav {
+    z-index: 1; /* This is a low value when the menu is closed. */
     position: fixed;
     width: 100%; /* Ensuring the navigation takes full width */
+    flex-direction: column;
+
 
     top: 0;
     right: 0;
@@ -289,9 +296,11 @@ button {
 
   .nav--open {
     transform: translateX(0);
+    z-index: 1000; /* This is an arbitrary high value */
   }
 
   .nav-layout {
+    order: 1;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -319,9 +328,7 @@ button {
   }
 
   .dropdown-content {
-    width: 100%; /* Ensuring the dropdown content takes full width */
-    position: static; /* Resetting the position */
-
+    z-index: 999; /* A value just below the nav */
   }
 
   .dropdown-content a {
@@ -339,4 +346,6 @@ button {
     cursor: pointer;
     color: black
   }
+
+  
 }

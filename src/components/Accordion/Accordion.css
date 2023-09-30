@@ -12,3 +12,9 @@
   max-height: 500px; /* You can adjust this as needed */
   padding: 50px 175px;
 }
+
+@media (max-width: 390px) {
+  .accordion-content.open {
+    padding: 20px 15px; /* Adjust values as needed */
+  }
+}
