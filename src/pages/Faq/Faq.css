@@ -62,3 +62,37 @@
   font-weight: 500;
   line-height: 20px;
 }
+
+@media (max-width: 390px) {
+  .container {
+    width: 100%; /* Full width for mobile */
+    padding: 0 15px; /* Some padding to prevent content from touching the screen edges */
+  }
+
+  .question-container {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .question-wrapper, .question {
+    flex-direction: column; /* Stack the question and the toggle button vertically */
+  }
+
+  .question {
+    margin-right: 0; /* No need for margin right on mobile */
+    font-size: 18px; /* Adjusted font size for mobile */
+  }
+
+  .toggle-button {
+    margin-top: 10px; /* Add some space above the toggle button */
+    font-size: 18px; /* Slightly smaller font size for mobile */
+  }
+
+  .answer {
+    font-size: 14px; /* Slightly smaller font size for mobile */
+  }
+}
+
+
+
+
+

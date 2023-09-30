@@ -60,3 +60,43 @@
   .button:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 390px) {
+    
+    .team-section {
+        padding: 0 5px;
+    }
+
+    .grid-container-odd,
+    .grid-container-even {
+        margin: 15px 0;
+    }
+
+    /* Stacking items vertically */
+    .grid-container-odd,
+    .grid-container-even {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-item {
+        margin-bottom: 10px; /* space between stacked items */
+        width: 90%; /* or whatever width looks best */
+    }
+    
+    /* Removing specific grid-column settings for small screens */
+    .grid-container-odd .grid-item:nth-child(1),
+    .grid-container-odd .grid-item:nth-child(2),
+    .grid-container-odd .grid-item:nth-child(3),
+    .grid-container-even .grid-item:nth-child(1),
+    .grid-container-even .grid-item:nth-child(2) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+}
+
+
+
+
+

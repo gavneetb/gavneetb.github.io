@@ -3,6 +3,8 @@ import speakerWebsite from "../res/images/logos/WebsiteLink.svg";
 import speakerMail from "../res/images/mail.svg";
 
 export default function SpeakerCard({
+  //MOBILE VIEW
+  isMobileView,
   name,
   program,
   role,
@@ -97,26 +99,28 @@ export default function SpeakerCard({
         >
           {role}
         </h3>
-        <span
-          className="button"
-          style={{
-            fontFamily: "inter",
-            fontWeight: 200,
-            color: "#FFFFFF",
-            borderBottom: "1px solid #FFFFFF",
-          }}
-          onClick={() => {
-            if (reading) {
-              setMyProfileOpen(null);
-            } else {
-              setMyProfileOpen(myIndex);
-            }
-            toggleAccordian(!reading);
-            setPersonInfo(program, freeTime, description);
-          }}
-        >
-          {reading ? "Read Less" : "Read More"}
-        </span>
+        {!isMobileView && (
+          <span
+            className="button"
+            style={{
+              fontFamily: "inter",
+              fontWeight: 200,
+              color: "#FFFFFF",
+              borderBottom: "1px solid #FFFFFF",
+            }}
+            onClick={() => {
+              if (reading) {
+                setMyProfileOpen(null);
+              } else {
+                setMyProfileOpen(myIndex);
+              }
+              toggleAccordian(!reading);
+              setPersonInfo(program, freeTime, description);
+            }}
+          >
+            {reading ? "Read Less" : "Read More"}
+          </span>
+        )}
       </div>
     </div>
   );
